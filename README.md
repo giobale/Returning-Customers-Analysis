@@ -56,12 +56,51 @@ The `combined_df.csv` file contains the following columns:
 
 ### Applicability of `combined_df.csv`
 
-This file is extremely useful for researchers and analysts who wish to perform additional external analysis of the year-to-year differences across customer and product segments. With this data, one can:
-- Perform custom statistical analysis.
-- Run machine learning models to predict future spending behavior.
-- Build external visualizations for presentations or reports.
-  
-The flexibility of this dataset enables deeper exploration of customer behavior, making it suitable for a wide range of business or academic applications.
+The `combined_df.csv` file is a powerful tool for researchers and analysts looking to **dive deeper into individual customer behaviors** across multiple product segments over time. After gathering high-level insights from the matrix visualization, this CSV file allows for a more granular investigation into how specific customers have changed their spending habits across different product categories between consecutive years.
+
+By using a spreadsheet tool like Excel or Google Sheets, you can perform **in-depth analyses** on individual customers and their year-to-year differences in spending across multiple product segments.
+
+### Insights from `combined_df.csv`:
+
+1. **Track Customer Performance Across Product Segments**:
+   - The CSV file provides data on each customer’s **spending differences** for multiple product segments. For each customer, you can track how their spending has changed across product-segment-1, product-segment-2, and product-segment-3 between consecutive years.
+   - This allows businesses to understand how **specific customers** interact with different product lines over time. You might identify customers who are increasing their engagement with certain product segments while reducing spending on others.
+
+2. **Identify Key Customers Driving Product Growth or Decline**:
+   - By filtering the CSV file, you can isolate **customers who have increased or decreased spending** in specific product segments. This can help you spot which customers are responsible for growth in certain areas and which customers may need attention due to declining engagement.
+   - For example, after spotting growth in **product-segment-1** in the matrix visualization, you can use the CSV to identify which specific customers contributed the most to that growth.
+
+3. **Drill Down into Customer-Specific Insights**:
+   - The CSV allows you to drill down into the behavior of individual customers. You can track their spending across multiple segments and years, giving you the ability to answer questions like:
+     - Is the customer consistently increasing or decreasing spending across all segments?
+     - Are they shifting their spending from one product segment to another?
+     - Have they stopped purchasing from certain segments altogether?
+
+4. **Identify Customer-Specific Trends**:
+   - By analyzing year-to-year differences in each product segment, you can detect trends in customer behavior. For example, some customers might consistently increase spending on one product segment while reducing it on others. This insight can guide personalized marketing strategies or help you decide whether to focus on customer retention or cross-selling additional products.
+
+### Use Case Example:
+
+Imagine you've identified a significant overall decline in spending on **product-segment-2** within the **small customer segment** using the matrix visualization. By analyzing `combined_df.csv`, you can:
+1. **Filter the data** to focus on **small customers** and the columns related to **product-segment-2**.
+2. **Sort** the customers by their `product-segment-2_diff` to find those with the largest declines in spending.
+3. **Examine Individual Patterns**: You can look at the customers’ spending in `product-segment-2_previous` and `product-segment-2_following` to see the exact reduction in spending and compare it to their behavior in other product segments. For example, did they shift their spending to other segments, or is their overall spending declining?
+
+4. **Actionable Insight**: Based on these findings, you could:
+   - Create a personalized campaign to re-engage the customers who reduced their spending on **product-segment-2**.
+   - Offer incentives for them to return to this product line or explore other segments where they are still active.
+
+### Spreadsheet-Based Drill-Down:
+
+Once loaded into a spreadsheet, the **`combined_df.csv`** enables you to:
+- **Filter by customer segment and year-to-year range** to focus on specific cohorts or periods.
+- **Sort customers by their spending differences** across each product segment, allowing you to prioritize actions (e.g., re-engagement strategies for those with the largest declines).
+- **Visualize customer journeys** by comparing year-to-year spending changes across all product segments, revealing trends that are otherwise hard to spot in aggregated data.
+
+### Summary of Benefits:
+- **Detailed Customer Behavior Tracking**: The CSV enables businesses to track how individual customers interact with different product segments over time, allowing for a better understanding of their buying patterns.
+- **Data-Driven Retention Strategies**: By id
+
 
 ## Conclusion
 
