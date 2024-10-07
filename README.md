@@ -99,7 +99,8 @@ Once loaded into a spreadsheet, the **`combined_df.csv`** enables you to:
 
 ### Summary of Benefits:
 - **Detailed Customer Behavior Tracking**: The CSV enables businesses to track how individual customers interact with different product segments over time, allowing for a better understanding of their buying patterns.
-- **Data-Driven Retention Strategies**: By id
+- **Data-Driven Retention Strategies**: By identifying customers who have decreased spending in specific segments, businesses can design personalized retention strategies.
+- **Cross-Sell and Up-Sell Opportunities**: By examining shifts in customer spending across segments, businesses can identify opportunities to promote other product lines or enhance customer loyalty with targeted offers.
 
 
 ## Conclusion
