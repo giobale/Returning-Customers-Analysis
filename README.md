@@ -17,7 +17,7 @@ Similarly, product segments can vary based on the business needs, such as:
 - **Product-Segment-2**
 - **Product-Segment-3**
 
-![Segmentation Matrix - Difference in Units](images'/matrix1.png)
+![Segmentation Matrix - Difference in Units](images/matrix1.png)
 ![Segmentation Matrix - Difference in Percentage](images'/matrix2.png)
 
 *Note: The sum of the percentages inside each cell in the second matrix does not equal 100%. This is because the values represent two different metrics: the difference in percentage from the previous year for each specific segment and the segment's contribution to the total percentage difference. These are calculated separately, and thus do not sum to 100% within each cell.*
