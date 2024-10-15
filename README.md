@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on analyzing the behavior of repeated customers by using matrix visualizations to compare spending patterns across different product segments and customer segments over multiple years. The visualization helps highlight differences in customer spending year over year, enabling businesses to derive actionable insights from the data.
+This project focuses on analyzing the behavior of repeated customers (customers that are present in two following years) by using matrix visualizations to compare spending patterns across different product segments and customer segments over multiple years. The visualization helps highlight differences in customer spending year over year, enabling businesses to derive actionable insights from the data.
 
 ## Applicability of Matrix Visualization
 
